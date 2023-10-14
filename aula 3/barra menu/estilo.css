@@ -1,0 +1,34 @@
+#MenuPrincipal{
+    background-color: rgb(128, 128, 128);
+    margin-top: -2vh;
+    margin-left: -2vh;
+}
+.navegacao_principal{
+    background-color: grey;
+    margin-top: 10vh;
+    height: 5vh;
+    margin-right: -1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacao_principal ul{
+    margin-left: 20vh;
+}
+.navegacao_principal ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-left: 4vh;
+    margin-top: 1.5vh;
+}
+.navegacao_principal ul li a{
+    text-decoration:none;
+    color: white;
+}
+.navegacao_principal ul li a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+.navegacao_principal ul li:hover{
+    transition: all 1s;
+    color: black;
+}

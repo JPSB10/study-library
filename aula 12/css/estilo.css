@@ -1,0 +1,48 @@
+*{ /*para impor condição a todos os elementos, nesse caso ao texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navegacao_topo{
+    background-color: #7fffd4;
+    height: 8vh;
+    padding-top: 2vh;
+    width: 100%;
+}
+.navegacao_topo ul li{
+    float: left; /*flutuar*/
+    margin-left: 10vh;
+    list-style: none; /*remover estilo de lista*/
+}
+.navegacao_topo ul{
+    margin-left: 25%; /*descobrir como fazer alinhamento central perfeito*/
+}
+
+.banner_grande{
+    height: 80vh;
+    width: 100%;
+    background-color: #40e0d0;
+    margin-top: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner_01{
+    background-image: none;
+}
+.artigos{
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    height: 50vh;
+    width: 100%;
+}
+.card{
+    margin-left: 8vh;
+    padding: 2vh;
+    background-color: thistle;
+    color: blue;
+}
+
+@keyframes Animar{
+    from {height: 0vh;}
+    to{height: 20vh;}
+}

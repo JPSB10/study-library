@@ -1,0 +1,62 @@
+#bloco01{
+    background-color: blue;
+    margin-left: 0vh;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 4vh;
+    animation-delay: 0.1s;
+}
+
+
+.container-base{
+    display: flex;
+    flex-direction: row;
+}
+
+.AnimationMove{
+    animation-name: Andar; /*necessário para o keyframes*/
+    animation-iteration-count: 1; /* num. de vezes que a animação será repetida*/
+    animation-fill-mode: forwards; /*direção*/
+    animation-direction: alternate; /*movimento alternado ida e volta*/
+    animation-timing-function: ease-out; /*deixar a animação mais light, não engessada*/
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+#texto{
+    color: white;
+    animation-delay: 0.5s;
+}
+
+.AnimationMove2{
+    animation-name: Aparecer; /*necessário para o keyframes*/
+    animation-iteration-count: 1; /* num. de vezes que a animação será repetida*/
+    animation-fill-mode: forwards; /*direção*/
+    animation-direction: alternate; /*movimento alternado ida e volta*/
+    /*animation-timing-function: ease-out; /*deixar a animação mais light, não engessada*/
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+}
+
+@keyframes Andar /*usado para indicar que se trata de uma animação*/
+{
+    from{/*margin-top: 0vh;*/
+        margin-left: 0vh;
+    }
+    to{
+        /*margin-top: 50vh;*/
+        margin-left: 50vh;
+    }
+    /* outra forma de escrever com mudança no meio da animação:
+    0%{margin-left: 0vh;}
+    30%{background-color: red}
+    100%{margin-left: 90vh}*/
+}
+
+@keyframes Aparecer /*usado para indicar que se trata de uma animação*/
+{
+    from{color: white;
+    }
+    to{color: black;
+    }
+}

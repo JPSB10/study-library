@@ -1,0 +1,57 @@
+#Banner_Principal{
+    background-color: #ffe4c4;
+    height: 60vh;
+    width: 104%;
+}
+#tema01{
+    background-color: #a52a2a;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+#tema02{
+    background-color: #13660b;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+#tema03{
+    background-color: #120eee;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+#tema04{
+    background-color: #ccda13;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+.legenda{
+    background-color: cornsilk;
+    color: black;
+    padding: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30vh;
+    opacity: 0.7;
+}
+#Navegacao_banner{
+    background-color: blueviolet;
+    padding: 2vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Navegacao_banner ul{
+    position: absolute;
+    margin-top: -1vh;
+}
+#Navegacao_banner ul li{
+    list-style: none;
+    float: left;
+    margin-left: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

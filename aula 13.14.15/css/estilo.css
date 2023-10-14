@@ -1,0 +1,218 @@
+ .barra_navegacao{
+    height: 8vh;
+    width: 100%;
+    margin-top: -2vh;
+    background-color: #ffa500;
+}
+.barra_navegacao ul{
+    position: absolute;
+    margin-left: 15vh;
+    margin-top: 1vh;
+    align-items: center;
+}
+
+.barra_navegacao ul li{
+    color: white;
+    font-family: Arial;
+    float: left;
+    list-style: none;
+    margin-left: 10vh;
+    margin-top: 3vh;
+
+}
+
+.barra_navegacao ul li a{
+    position: absolute;
+    transition: all 1s;
+    color: white;
+    text-decoration: none;
+
+}
+
+.barra_navegacao ul li a:hover{
+    font-size: 2vh;
+    margin-left: -1vh;
+    transition: all 1s;
+}
+.localNav{
+    background-color: #cec7c7;
+    color: #ffa500;
+    margin-top: 8vh;
+    width: 99.15%;
+    height: 4vh;
+    position: absolute;
+    font-family: Arial;
+}
+.localNav h4{
+    position: absolute;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+.logo{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 4vh;
+    height: 5vh;
+    width: 15vh;
+    position: absolute;
+    font-size: 3vh;
+    font-family: Arial;
+}
+.elementos_nav{
+    color: white;
+    height: 5vh;
+    width: 15vh;
+    position: absolute;
+    font-size: 3vh;
+    font-family: Arial;
+    margin-left: 100vh;
+    margin-top: 3vh;
+}
+
+.banner{
+    height: 30vh;
+    width: 95%;
+    background-color: #ffa500;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner h1{
+    font-size: 5vh;
+
+}
+.banner article{
+    margin-left: 6vh;
+    position: absolute;
+}
+
+.banner button{
+    color: white;
+    font-size: 3vh;
+}
+
+#btBannerAnterior{
+    background-color: #ffa500;
+    height: 4vh;
+    width: 4vh;
+    margin-top: 12vh;
+    margin-left: -3vh;
+    position: absolute;
+}
+
+#btBannerProximo{
+    background-color: #ffa500;
+    height: 4vh;
+    width: 4vh;
+    margin-top: 12vh;
+    margin-left: 180vh;
+    position: absolute;
+}
+.CardsElementos{
+    background-color: #c0c0c0;
+    margin-left: 4vh;
+    margin-top: 2vh;
+    height: 40vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    height: 30vh;
+    width: 20vh;
+    background-color: #f0f8ff;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.card h1{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h4{
+    color: rgb(160, 148, 148);
+}
+.cardProduto{
+    background-color: indianred;
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    transition: all 2s;
+}
+.Card04{
+    background-color: royalblue;
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    color: ivory;
+    border-radius: 3vh;
+    transition: all 2s;
+}
+.Card05{
+    background-color:goldenrod;
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    color: silver;
+    border-radius: 1vh;
+    text-align: center;
+    transition: all 2s;
+}
+.Card06{
+    background-color:green;
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    color: yellow;
+    border-radius: 2vh;
+    text-align: center;
+    transition: all 2s;
+}
+.Card07{
+    background-color:red;
+    height: 30vh;
+    width: 20vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    color: black;
+    text-align: right;
+    transition: all 2s;
+}
+
+.sombra{
+    box-shadow: 1vh 2vh black;
+
+}
+.cardProduto:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.card:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.Card04:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.Card05:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.Card06:hover{
+    transition: all 2s;
+    transform: scale(1.1);
+}

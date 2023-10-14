@@ -1,0 +1,35 @@
+body{
+    background-color: brown;
+}
+#caixa{
+    height: 20vh;
+    width: 60vh;
+    background-color: aqua;
+    color: green;
+    display: flex;
+    flex-direction: row;
+}
+#artigos{
+    height: 20vh;
+    width: 60vh;
+    background-color: aqua;
+    color: green;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30vh;
+}
+
+.card{
+    height: 10vh;
+    width: 20vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    color: black;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    background-color: darkgray;
+}
+.card:hover{
+    background-color: gainsboro;
+    scale: (1,5);
+}

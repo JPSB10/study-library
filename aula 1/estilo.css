@@ -1,0 +1,26 @@
+body{
+    background-color: darkgreen;
+}
+/*h1{
+    color: hotpink;
+}*/
+
+#separador{
+    background-color: greenyellow;
+    width: 40vh;
+    height: 60vh;
+    margin-left: 40vh;
+}
+.tela{
+    background-color: honeydew;
+}
+.tela:hover{
+    transition:all 1s;
+    height: 20vh;
+}
+.tela h1{
+    color: orange;
+}
+.tela01 h1{
+    color: pink;
+}

@@ -1,0 +1,14 @@
+{
+    "Produtos":{
+        "Tenis_0":["Nome tenis","Valor","Descrição"],
+        "Tenis_1":["Nome TENIS","Valor","Descrição"],
+        "Tenis_2":["Nome Tenis","Valor","Descrição"],
+        "Tenis_3":["Nome tenis","Valor","Descrição"],
+        "Tenis_4":["Nome TENIS","Valor","Descrição"],
+        "Tenis_5":["Nome Tenis","Valor","Descrição"],
+        "Tenis_6":["Nome tenis","Valor","Descrição"],
+        "Tenis_7":["Nome TENIS","Valor","Descrição"],
+        "Tenis_8":["Nome Tenis","Valor","Descrição"]
+    },
+    "Unidades":["RJ","BH","SP"]
+}

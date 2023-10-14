@@ -1,0 +1,6 @@
+{
+"Livros":["BackEnd","FrontEnd","javascript"],
+"Titulos":{"BackEnd":"Na prática","FrontEnd":"Melhores métodos","javascript":"Javascrip Livro"},
+"Assuntos":[{"FrontEnd": "Js do Básico", "BackEnd":"Avançado"},{"FrontEnd":"FrontEnd Basico","Frontend2":"FrontEnd Avacado"}],
+"Preco":{"BackEnd": "R$93,00", "FrontEnd": "R$82,00", "javascript": "R$115,00"}
+}

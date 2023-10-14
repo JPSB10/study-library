@@ -1,0 +1,40 @@
+body{
+    background-color:sandybrown;
+}
+.tela h1{
+    color: brown;
+    margin-left: 100vh;
+    margin-top: 10vh;
+}
+#menu{
+    width: 20vh;
+    height: 30vh;
+    margin-left: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+#separador{
+    width: 20vh;
+    height: 30vh;
+    margin-left: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+#escrito{
+    height: 20vh;
+    margin-left: 20vh;
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+.textos h3{
+    transition:all 1s;
+}
+.tela1 h3{
+    color: brown;
+    margin-left: 50vh;
+    margin-top: 20vh;
+}
+.imagem1{
+    margin-left: 8vh;
+}

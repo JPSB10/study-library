@@ -1,0 +1,179 @@
+#MenuPrincipal{
+    background-color: rgb(128, 128, 128);
+    margin-top: -2vh;
+    margin-left: -2vh;
+}
+.navegacao_principal{
+    margin-top: 10vh;
+    height: 5vh;
+    width: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacao_principal ul{
+    margin-left: 20vh;
+}
+.navegacao_principal ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-left: 4vh;
+    margin-top: 1.5vh;
+}
+.navegacao_principal ul li a{
+    text-decoration:none;
+    color: white;
+}
+.home a:hover{ /* só funciona caso não tenha o ".navegacao_principal ul li a:hover"*/
+    color: orange;
+}
+.veiculos a:hover{
+    color: turquoise;
+}
+.sobre a:hover{
+    color: tomato;
+}
+.contato a:hover{
+    color: yellowgreen;
+}
+/*.navegacao_principal ul li a:hover{ /*regra principal, tirar caso queira o funcionamento da classe "home"
+    color:yellow;
+    /*text-decoration: none;
+}*/
+.navegacao_principal ul li:hover{
+    transition: all 0.5s;
+    color: black;
+}
+.ElementosBanner{
+    height: 40vh;
+    width: 90vh;
+    /*background-color: bisque;*/
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    flex-direction: row
+}
+.quadros{
+    /*position: absolute; torna o objeto independente do ElementosBanner */
+    height: 32vh;
+    width: 40vh;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    background-color: cornflowerblue;
+    
+}
+.ImagemPlace{ /*place holder, lugar guardando espaço para uma futura imagem ou elemento*/
+    height: 15vh;
+    width: 15vh;
+    background-color: red;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+.quadros article{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0vh;
+    padding: 2vh; /*cria uma borda*/
+    text-align: center;
+}
+.quadros button{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    height: 3vh;
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.quadros button:hover{
+    color: black;
+    background-color: greenyellow;
+}
+#banner2{
+    height: 30vh;
+    width: 100vh;
+    background-color: indigo;
+}
+#banner3{
+    height: 30vh;
+    width: 100vh;
+    background-color: firebrick;
+}
+.elementosDoBanner{
+    color: white;
+    padding: 2vh;
+}
+.elementosDoBanner button{
+    margin-top: 38vh;
+    margin-left: 2vh;
+    height: 3vh;
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.elementosDoBanner button:hover{
+    color: black;
+    background-color: greenyellow;
+}
+
+#ListaDeEp{
+    background-color: #7fffd4;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    height: 40vh;
+    width: 80vh;
+    overflow-x: visible; /*mostra a direção da barra de rolagem a ser posta
+    overflow-y: visible; */
+    overflow: auto; /*põe a barra de rolagem*/
+}
+.ElementoLista{
+    background-color: #deb887;
+    color: #5f9ea0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: 40vh;
+    width: 60vh;
+    padding: 2vh;
+}
+.ElementoLista h1{
+    margin-top: -1vh;
+    margin-left: 2vh;
+}
+.flexElementos{
+    display: flex;
+    flex-direction: row;
+}
+.imgLista{
+    height: 10vh;
+    width: 10vh;
+}
+#prod1{
+    background-image: url(https://th.bing.com/th?id=OIP.2s6v8hFMcJDkWqc-Un3M8QHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+    background-repeat: no-repeat; /*para não repetir a imagem*/
+    background-size: cover; /*para não cortar e adaptar a img ao tamanho da classe*/
+}
+.bt_prod1{
+    background-color: chartreuse;
+    color: #2f00ff;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: none; /*para tirar borda do botão*/
+    font-size: 1.5h;
+}
+.Pag3Color{ /*Cor padrão para pag3*/
+    background-color: darkkhaki;
+    color: darkslategrey;
+}
+body{
+    overflow-y: hidden; /*para tirar a barra "grande"*/
+}

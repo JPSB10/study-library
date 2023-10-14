@@ -1,0 +1,11 @@
+body{
+    background-color: green;
+    color: white;
+}
+.BlocoDeTextoArticle{
+    background-color: orange;
+    /*border-radius: 6vh;*/
+}
+.BlocoDeTexto{
+    background-color: pink;
+}

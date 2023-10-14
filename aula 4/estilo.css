@@ -1,0 +1,115 @@
+#MenuPrincipal{
+    background-color: rgb(128, 128, 128);
+    margin-top: -2vh;
+    margin-left: -2vh;
+}
+.navegacao_principal{
+    margin-top: 10vh;
+    height: 5vh;
+    width: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacao_principal ul{
+    margin-left: 20vh;
+}
+.navegacao_principal ul li{
+    color: white;
+    list-style: none;
+    float: left;
+    margin-left: 4vh;
+    margin-top: 1.5vh;
+}
+.navegacao_principal ul li a{
+    text-decoration:none;
+    color: white;
+}
+.home a:hover{ /* só funciona caso não tenha o ".navegacao_principal ul li a:hover"*/
+    color: orange;
+}
+.veiculos a:hover{
+    color: turquoise;
+}
+.sobre a:hover{
+    color: tomato;
+}
+.contato a:hover{
+    color: yellowgreen;
+}
+/*.navegacao_principal ul li a:hover{ /*regra principal, tirar caso queira o funcionamento da classe "home"
+    color:yellow;
+    /*text-decoration: none;
+}*/
+.navegacao_principal ul li:hover{
+    transition: all 0.5s;
+    color: black;
+}
+.ElementosBanner{
+    height: 40vh;
+    width: 90vh;
+    /*background-color: bisque;*/
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    flex-direction: row
+}
+.quadros{
+    /*position: absolute; torna o objeto independente do ElementosBanner */
+    height: 32vh;
+    width: 40vh;
+    margin-top: 4vh;
+    margin-left: 4vh;
+    background-color: cornflowerblue;
+    
+}
+.ImagemPlace{ /*place holder, lugar guardando espaço para uma futura imagem ou elemento*/
+    height: 15vh;
+    width: 15vh;
+    background-color: red;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
+.quadros article{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0vh;
+    padding: 2vh; /*cria uma borda*/
+    text-align: center;
+}
+.quadros button{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    height: 3vh;
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.quadros button:hover{
+    color: black;
+    background-color: greenyellow;
+}
+#banner2{
+    height: 50vh;
+    width: 100vh;
+    background-color: indigo;
+}
+.elementosDoBanner{
+    color: white;
+    padding: 2vh;
+}
+.elementosDoBanner button{
+    margin-top: 38vh;
+    margin-left: 2vh;
+    height: 3vh;
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.elementosDoBanner button:hover{
+    color: black;
+    background-color: greenyellow;
+}
